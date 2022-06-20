@@ -85,7 +85,7 @@ public class CalculatorSteps {
         }
     }
 
-    @When("Sum all numbers from the column_1 and column_2")
+    @When("Sum all number(s) from the column_1 and column_2")
     public void sum_all_numbers_from_the_first_column_and_second_column() {
         totalOfColumn1 = tableColumnValues.sumListValues(firstColumnValues);
         totalOfColumn2 = tableColumnValues.sumListValues(secondColumnValues);
@@ -98,7 +98,7 @@ public class CalculatorSteps {
         System.out.println(message);
     }
 
-    @When("Calculate the difference of all the numbers in column_1 and column_2")
+    @When("Calculate the difference of all the number(s) in column_1 and column_2")
     public void calculateTheDifferenceOfAllTheNumbersInColumn1AndColumn2() {
         totalOfColumn1 = tableColumnValues.diffListValues(firstColumnValues);
         totalOfColumn2 = tableColumnValues.diffListValues(secondColumnValues);
