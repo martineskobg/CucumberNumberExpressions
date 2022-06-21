@@ -1,6 +1,6 @@
 # Cucumber Number Expressions
 
-## This is a Maven project created for training purples.
+## This is a Maven project created for training purpose.
 
 #### Description
 I've created this project to test the functionality of two calculators (SumCalculator and DifferenceCalculator), to gain experience with "Java", "Cucumber", "BDD" and JUnit. In this project I have created
